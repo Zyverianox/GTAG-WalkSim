@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WalkSimMod</RootNamespace>
+    <AssemblyName>WalkSimMod</AssemblyName>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference Unity and BepInEx DLLs -->
+    <Reference Include="UnityEngine">
+      <HintPath>path\to\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>path\to\BepInEx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
